@@ -99,7 +99,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2001-03-17',
         from: '東京都',
         height: '156cm',
-        bloodType: '',
       },
       {
         name: '小川奈々子',
@@ -109,7 +108,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '1999-10-01',
         from: '北海道',
         height: '160cm',
-        bloodType: '',
       },
       {
         name: '福山梨乃',
@@ -119,7 +117,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '1997-12-24',
         from: '東京都',
         height: '155cm',
-        bloodType: '',
       },
       {
         name: '桐原美月',
@@ -129,7 +126,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2003-02-21',
         from: '茨城県',
         height: '148cm',
-        bloodType: '',
       },
       {
         name: '宮野静',
@@ -166,7 +162,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2000-12-27',
         from: '東京都',
         height: '166cm',
-        bloodType: '',
       },
       {
         name: '庄司なぎさ',
@@ -181,12 +176,11 @@ export const data: KawaiiLabGroup[] = [
       {
         name: '山内咲奈',
         nameKana: 'やまうちさきな',
-        nickname: '',
+        nickname: 'さきなてん',
         color: '黄',
         birthday: '2004-02-29',
         from: '大阪府',
         height: '154cm',
-        bloodType: '',
       },
       {
         name: '音井結衣',
@@ -221,12 +215,11 @@ export const data: KawaiiLabGroup[] = [
       {
         name: '栗田なつか',
         nameKana: 'くりたなつか',
-        nickname: '',
+        nickname: 'なつか',
         color: 'ピンク',
         birthday: '2002-07-19',
         from: '京都府',
         height: '153cm',
-        bloodType: '',
       },
     ],
   },
@@ -243,7 +236,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2000-11-26',
         from: '東京都',
         height: '151cm',
-        bloodType: '',
       },
       {
         name: '川本笑瑠',
@@ -273,7 +265,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2001-11-11',
         from: '千葉県',
         height: '157cm',
-        bloodType: '',
       },
       {
         name: '梅田みゆ',
@@ -303,7 +294,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2004-06-28',
         from: '神奈川県',
         height: '161cm',
-        bloodType: '',
       },
       {
         name: '桜庭遥花',
@@ -313,7 +303,6 @@ export const data: KawaiiLabGroup[] = [
         birthday: '2006-01-29',
         from: '北海道岩見沢市',
         height: '154cm',
-        bloodType: '',
       },
     ],
   },

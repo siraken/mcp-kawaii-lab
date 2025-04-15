@@ -18,6 +18,6 @@ type KawaiiLabMember = {
   birthday: string;
   color: string;
   from: string;
-  height?: string;
-  bloodType?: '' | 'A' | 'B' | 'O' | 'AB';
+  height: string;
+  bloodType?: 'A' | 'B' | 'O' | 'AB';
 };
