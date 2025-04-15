@@ -9,22 +9,27 @@ const server = new McpServer({
   version: '0.1.0',
 });
 
-const fuse = new Fuse(data, {
-  keys: ['name', 'commonName', 'members.name', 'members.nickname'],
-});
-
 server.tool(
   'members',
   'KAWAII LAB. の情報を取得する',
-  { groupName: z.string() },
-  async ({ groupName }: { groupName: string }) => {
-    const result = fuse.search(groupName);
+  {
+    query: z
+      .string()
+      .describe(
+        'グループ名 or グループ名の通称 or メンバー名 or メンバーの愛称',
+      ),
+  },
+  async ({ query }: { query: string }) => {
+    const fuse = new Fuse(data, {
+      keys: ['name', 'commonName', 'members.name', 'members.nickname'],
+    });
+    const result = fuse.search(query);
     if (result.length === 0) {
       return {
         content: [
           {
             type: 'text',
-            text: `グループ ${groupName} は見つかりませんでした`,
+            text: `グループ ${query} は見つかりませんでした`,
           },
         ],
       };
